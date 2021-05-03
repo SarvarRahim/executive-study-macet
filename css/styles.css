@@ -1,0 +1,359 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navs ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header-navs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navs a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #373737;
+}
+
+.apply-button {
+    display: inline-block;
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    padding: 13px 33px 0px 33px;
+}
+
+/* boshlandi */
+.hero-site {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-site-title {
+    width: 542px;
+    height: 154px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2F2F2F;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.to {
+    text-transform: lowercase;
+}
+
+.build {
+    color: #717CFF;
+}
+
+.hero-site-text {
+    width: 632px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+    display: inline-block;
+}
+
+.hero-site__link-span {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+
+}
+.hero-site__link-span {
+    display: inline-block;
+    background: #717CFF;
+    border-radius: 11px;
+    padding: 10px 35px 10px 34px;
+}
+.site-hero__link-vector {
+    padding-left: 34px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+}
+/* univer side */
+
+.featured-universities {
+    height: 280px;
+    background-color: #FAFAFA;
+}
+.featured-unv__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #373737;
+    mix-blend-mode: normal;
+    opacity: 0.73;
+}
+
+.featured-unv__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-button {
+    border-radius: 50%;
+    border: none;
+    width: 14px;
+    height: 14px;
+    left: 667px;
+    top: 1126px;
+    background-color: #7C7C7C;
+    transition: background-color 0.4s ease;
+}
+
+.link-button:hover {
+    background-color: #717CFF;
+}
+
+.buttons {
+    width: 80px;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.servis-text {
+    font-weight: 700px;
+    font-size: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+.servis-info {
+    width: 949px;
+    height: 80px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+}
+
+.card-text {
+    width: 296px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+}
+
+.icon-track {
+    width: 38px;
+    border-radius: 38px;
+    padding: 18px;
+    background-color: #717CFF;
+}
+
+.icon-album {
+    width: 38px;
+    border-radius: 38px;
+    padding: 18px;
+    background-color: #FF5959;
+}
+
+.icon-file {
+    width: 38px;
+    border-radius: 38px;
+    padding: 18px;
+    background-color:#70CE88;
+}
+
+.icon-home {
+    width: 38px;
+    border-radius: 38px;
+    padding: 18px;
+    background-color:#5C96FF;
+}
+
+.icon-air {
+    width: 38px;
+    border-radius: 38px;
+    padding: 18px;
+    background-color: #FA706C;
+}
+
+.cards-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1120px;
+    margin: 0 auto;
+}
+.cards{
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* content part */
+.news-pag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-head h2{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.news-head p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #7d7d7d;
+}
+
+.news-head {
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    padding: 105px;
+}
+
+
+.news-content {
+    width: 344px;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+}
+
+.content-title {
+    /* width: 300px; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #252525;
+
+}
+
+.content-time {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    color: #565656;
+}
+
+.join-here {
+    background: #717CFF;
+
+    border-radius: 11px;
+    padding: 5px 0px 14px 0px;
+    display: inline-block;
+}
+
+.join-here a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 97px 12px 34px;
+    color: #fff;
+}
+
+.date-univer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.date-univer h2 {
+    width: 560  px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    padding: 51px;
+}
+
+.date-univer p {
+    width: 949px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.calendar {
+    background-color: rgba(113, 124, 255, 1);
+    border-radius: 11px;
+    display: inline-block;
+    padding: 0px 22px 10px 26px;
+}
+
+.calendar span {
+    width: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+    color: #fff;
+}
+
+.conteiner-date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
