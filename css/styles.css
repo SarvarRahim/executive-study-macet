@@ -1,6 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #fff;
     font-family: 'Roboto', Arial, sans-serif;
+}
+
+.container {
+    max-width: 1216px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .header-nav {
@@ -12,6 +30,10 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
+}
+
+.navigation {
+    margin-right: 68px;
 }
 
 .header-navs {
@@ -39,6 +61,7 @@ body {
 .hero-site {
     display: flex;
     justify-content: space-between;
+    margin-top: 140px;
 }
 
 .hero-site-title {
@@ -70,6 +93,7 @@ body {
     line-height: 38px;
     color: #7D7D7D;
     display: inline-block;
+    margin-top: 15px;
 }
 
 .hero-site__link-span {
@@ -95,13 +119,19 @@ body {
     list-style: none;
     display: flex;
     justify-content: start;
-    padding: 20px;
+    padding: 0;
+    margin-top: 103px;
+}
+
+.social-icons li{
+    padding-right: 15px;
+    margin-left: 5px;
 }
 /* univer side */
 
 .featured-universities {
-    height: 280px;
     background-color: #FAFAFA;
+    padding: 55px;
 }
 .featured-unv__title {
     font-style: normal;
@@ -120,6 +150,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 86px;
 }
 
 .link-button {
@@ -144,6 +175,12 @@ body {
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+    padding-bottom: 2px;
+    margin-top: 59px;
+}
+
+.our-servis {
+    padding-top: 122px;
 }
 
 .servis-text {
@@ -162,7 +199,7 @@ body {
     text-align: center;
     color: #7D7D7D;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-top: 25px;
 }
 
 .card-title {
@@ -228,17 +265,20 @@ body {
     color: #717CFF;
 }
 
-.container {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 1120px;
     margin: 0 auto;
+    margin-top: 104px;
+
 }
 .cards{
     box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
     border-radius: 15px;
-    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 47px;
 }
 
 /* content part */
@@ -252,13 +292,16 @@ body {
     font-size: 36px;
     line-height: 54px;
     font-weight: 700;
+    text-align: center;
     text-transform: capitalize;
 }
 
 .news-head p {
+    width: 291;
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
+    text-align: center;
     color: #7d7d7d;
 }
 
@@ -274,6 +317,7 @@ body {
     width: 344px;
     box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
     border-radius: 10px;
+    margin-right: 46px;
 }
 
 .content-title {
@@ -283,6 +327,7 @@ body {
     font-size: 22px;
     line-height: 26px;
     color: #252525;
+    margin: 64px 27px;
 
 }
 
@@ -296,10 +341,11 @@ body {
 
 .join-here {
     background: #717CFF;
-
     border-radius: 11px;
-    padding: 5px 0px 14px 0px;
+    padding: 12px 97px 12px 34px;
     display: inline-block;
+    margin-top: 146px;
+    margin-left: 607px;
 }
 
 .join-here a {
@@ -309,51 +355,105 @@ body {
     color: #fff;
 }
 
-.date-univer {
+.title-univer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.date-univer h2 {
-    width: 560  px;
+.title-univer h2 {
+    width: 580px;
     font-style: normal;
     font-weight: bold;
     font-size: 37px;
     text-align: center;
     letter-spacing: -0.4625px;
     color: #373737;
-    padding: 51px;
+    padding: 55px;
+    padding-top: 98px;
 }
 
-.date-univer p {
-    width: 949px;
+.title-univer p{
+    width: 940px;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 38px;
     text-align: center;
     color: #7D7D7D;
+    padding-bottom: 25px;
 }
 
-.calendar {
-    background-color: rgba(113, 124, 255, 1);
+.data {
+    width: 112px;
+    background: rgb(113, 124, 255, 0.5);
+    mix-blend-mode: normal
+    opacity: 0.14;
     border-radius: 11px;
-    display: inline-block;
-    padding: 0px 22px 10px 26px;
-}
-
-.calendar span {
-    width: 32px;
+    padding: 10px 22px 34px;
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
+    line-height: 32px;
     text-align: center;
-    color: #fff;
+    color: #717CFF
 }
 
-.conteiner-date {
+.date-conteiner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.qolib {
+    display: flex;
+}
+
+.content-date {
+    width: 540px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+}
+
+.date-conteiner span{
+    width: 31px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #717CFF;
+    padding: 42px 13px 23px;
+}
+
+.date-conteiner h3{
+    width: 351px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+    margin-left: 19px;
+}
+
+.date-conteiner p {
+    width: 481px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+    
+}
+
+.date-conteiner a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
 }
